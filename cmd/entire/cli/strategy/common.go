@@ -1472,6 +1472,7 @@ func readWorktreeFile(repoRoot, file string) ([]byte, error) {
 	}
 	return content, nil
 }
+
 // splitLines splits content into lines, preserving empty lines.
 // Handles both Unix (\n) and Windows (\r\n) line endings.
 func splitLines(content []byte) []string {
